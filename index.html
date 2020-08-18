@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  
+  *{
+    margin:0px;
+    padding: 0px;
+  }
+  .box1{
+    height:100px;
+    width:20%;
+    border: 2px solid black;
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+  }
+    .box2{
+    height:80px;
+    width:15%;
+    border: 2px solid black;
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+  }
+    .box3{
+    height:60px;
+    width:12%;
+    border: 2px solid black;
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+
+  }
+  .bt1{
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 5px
+  }
+    .bt2{
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 5px
+  }
+  
+  
+  </style>
+</head>
+<body>
+<div class="box1">
+  <img src="rijvi.jpg" height="50px" id="dragelement"  ondragstart="dragStart(event)">
+</div>
+<div class="box2" ondragover="allowDrop(event)" ondrop="drop(event)">
+</div>
+<div class="box3" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+  
+</div>
+<br/>
+
+<button type="button" class="bt1">horizontal</button>
+<button type="button" class="bt2">vertical</button>
+
+
+<script type="text/javascript" src="index.js">
+</script>
+  
+  
+  
+</body>
+  
+  
+  
+  
+</html>
